@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Curso Front-end - HTML | Página de Contato</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+			<!-- RESET -->
+			<link rel="stylesheet" type="text/css" href="./css/reset.css">
+			<link rel="stylesheet" type="text/css" href="./css/style.css">
+      <!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,500&family=Yeseva+One&display=swap" rel="stylesheet">
+	</head>
+		<body id="contato">
+      <header>
+        <h1>Venha Compartilhar um Café Conosco!</h1>
+        <p>É com grande satisfação que o convidamos a dar um pulinho em nossa adorável café.<br> Sabemos que as melhores conversas acontecem em um ambiente acolhedor, e não há lugar melhor para isso do que em volta de uma xícara de café fumegante.</p>
+      </header>
+  
+      <section>
+        <div class="width-100">
+          
+          <nav id="menu">
+            <ul class="navegacao">
+              <li id="primeiro-link"><a href="homepage.html">Homepage</a></li>
+              <li><a href="01-introducao.html">Introdução</a></li>
+              <li><a href="02-listas-e-links.html">Listas e Links</a></li>
+              <li><a href="03-formatacao-de-texto.html">Formatação de Texto</a></li>
+              <li><a href="04-tabelas.html">Tabelas I</a></li>
+              <li><a href="05-layouts.html">Layouts</a></li>
+              <li><a href="06-formularios.html">Formulário</a></li>
+              <li><a href="07-layouts-fluidos.html">Layouts Fluidos</a></li>
+              <li><a href="08-elementos-graficos.html">Elementos Gráficos</a></li>
+              <li><a href="09-layouts-web.html">Layouts Web</a></li>
+              <li><a href="modulo-07.html">Módulo 7</a></li>
+              <li><a href="modulo-07-exercicio.html">Tabela II</a></li>
+              <li><a href="modulo-08-exercicio-desafio.html">Página de Contato</a></li>
+              <li><a href="https://ebaconline.com.br" target="_blank">EBAC</a></li> 
+            </ul>
+          </nav>
+  
+          <article>
+            <div class="conteudo2">
+
+              <div class="texto-cafe">
+                <h2>Aguardamos ansiosamente por sua visita! </h2>
+               <p> Não apenas queremos servir bebidas excepcionais, mas também criar um espaço onde as pessoas possam se conectar, compartilhar ideias e momentos agradáveis. Convidamos você a trazer sua companhia, seus amigos ou colegas e aproveitar nossa atmosfera aconchegante.</p>
+
+               
+               <h3>Ficou com alguma dúvida?<br>Entre em contato conosco</h3>
+
+               <form method="post">
+
+                <div>
+                  <label for="nome">Nome</label><br>
+                  <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                </div>
+      
+                <div>
+                  <label for="email">E-mail</label><br>
+                  <input type="email" name="email" id="email" placeholder="Digite seu email">
+                </div>
+      
+                <div>
+                  <label for="mensagem">Mensagem</label><br>
+                  <textarea name="mensagem" id="mensagem" rows="5" placeholder="Escreva sua mensagem"></textarea>
+                </div>
+       
+                <div class="btn-div">
+                  <input type="submit" >
+                </div>
+                  
+              </form>
+
+            </div>
+
+              <div class="img-cafe">
+                <picture class="filtro">
+                  <source media="(max-width:280px)" srcset="./imagem/contato-sm.jpg">
+                  <source media="(max-width:600px)" srcset="./imagem/contato-md.jpg">
+                  <img srcset="./imagem/contato-2.jpg" alt="Café">
+              </picture>
+              </div>
+            </div>
+            
+          </article>
+  
+        </div>
+      </section>
+  
+      <footer>
+        <p>Desenvolvido por Giselle</p>
+      </footer>
+      
+    </body>
+  </html>

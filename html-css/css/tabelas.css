@@ -1,0 +1,104 @@
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+thead {
+	color: #d8c99b;
+	background: #a4243b;
+}
+
+.table-principal  thead > tr {
+	font-family: 'Yeseva One', cursive;
+}
+
+.table-principal tr {
+	font-weight: 600;
+	border: 3px dashed #a4243b;
+}
+
+.table-interna tr {
+	font-weight: 400;
+	border: none;
+}
+
+.bg-coluna {
+	background-color: #d8973c;
+	color: #fff;
+}
+
+table tbody tr:hover {
+	background-color: #273e47;
+	color: #fff;
+}
+
+table th,
+table td {
+	font-size: 1.6rem;
+	vertical-align: middle;
+	padding: 1rem;
+}
+
+table th {
+	font-weight: 400;
+	padding: 2rem;
+}
+
+.table-principal {
+	border: 20px solid #d8c99b;
+	box-shadow: -2px 3px 9px #05192387;
+}
+
+.table-interna {
+	padding: 1rem;
+	border-bottom: none;
+}
+
+.table-interna  td {
+	width:50%;
+	height:30px;
+}
+
+.table-container {
+	padding: 0 1rem 2rem 1rem;
+}
+
+.table-container h3 {
+	color: #a4243b;
+	font: normal 400 3.5rem/2 'Yeseva One', cursive;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.table-container tfoot, tfoot td {
+	background: #bd632f;
+	color: #fff;
+}
+
+.table-container tfoot td {
+	font-weight: bold;
+}
+
+
+@media (max-width:1024px){
+	.table-container {
+    padding: 0;
+    width: 100%;
+    overflow: auto;
+}
+}
+
+
+@media(max-width:768px) {
+
+.table-container {
+	padding: 0;
+}
+
+.table-container h3 {
+	font-size: 2.5rem;
+}
+
+}
